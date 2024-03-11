@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+.wrapper{
+    width: 100%;
+}
+.basadon{
+    position: absolute;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 999;
+}
+.basadon i{
+    font-size: 2.5em;
+    color: white;
+    padding: 10px;
+    background-color: rgba(134, 13, 13,0.3);
+    border-radius: 50%;
+
+}
+.basadon i:hover{
+    background-color: #bd1717;
+    transition: all 0.5s ease-in-out;
+}
+.banner{
+    width: 100%;
+    height: 50vh;
+    background: url(foto/dark_tint.png),url(foto/i1M5MaHWxqocSKo81ktxMymldPzJliduyNkaWqlX_480.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+header{
+    width: 100%;
+    align-self: flex-start;
+    position: absolute;
+}
+header h1{
+    cursor: pointer;
+}
+span.tab{
+    font-weight: 100;
+    font-size: 1.5em;
+}
+span.bilisim{
+    color: #bd1717;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 1px rgb(36, 31, 31);
+}
+h1 img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 60px;
+    top: 5px;
+}
+.tab{
+    position: absolute;
+    left: 5px;
+}
+.bilisim{
+    position: absolute;
+    left: 110px;
+}
+header h1{
+    position: absolute;
+    top: 10px;
+    font-family: "Ojuju", sans-serif;
+    margin-left: 15px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+nav ul{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    float: right;
+}
+nav ul li{
+    padding: 30px;
+    float: left;
+    display: block;
+}
+nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: #d8d8d8;
+    font-size: 1.1em;
+    font-weight: 100;
+}
+nav ul li a:hover{
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+.yazi h2{
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    border-bottom: 1px solid #d8d8d8;
+    width: 340px;
+}
+section.referans{
+    width: 100%;
+    position: relative;
+    padding: 60px 100px;
+    box-sizing: border-box;
+}
+.referans h3{
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 5px;
+    color: rgb(51, 45, 45);
+}
+.container{
+    
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    background-size: contain;
+}
+.container img{
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom:20px;
+    
+    
+    margin-right: 30px;
+    height: 60px;
+    
+    filter: drop-shadow(3px 3px 2px rgb(95, 88, 88));
+    background-size: cover;
+    margin-bottom: 20px;
+    display: block;
+}
+.tra{
+    box-shadow: 3px 3px 2px 0 rgb(95, 88, 88);
+}
+footer{
+    width: 100%;
+    padding: 40px 0;
+    background-color: #383b43;
+    position: relative;
+}
+.container4{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d8d8d8;
+}
+.container4 .k{
+    flex-basis: 220px;
+    flex-grow: 1;
+    margin-right: 40px;
+    align-self: stretch;
+}
+.container4 .saatler{
+    margin-right: 0;
+}
+.adres h2{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+    border-bottom: 1px solid #43475e;
+    width: 70px;
+    margin-bottom: 10px;
+}
+.adres address{
+    line-height: 34px;
+    color: white;
+    font-weight: 300;
+}
+.kurumsal{
+    position: relative;
+    text-align: left;
+}
+.kurumsal h2{
+    font-size: 1.5em;
+    color: white;
+    font-weight: 500;
+    border-bottom: 1px solid #43475e;
+    width: 70px;
+    margin-bottom: 10px;
+}
+.text{
+    margin-bottom: 10px;
+    color: #d1d1d1;
+}
+.text i{
+    position: relative;
+    float: left;
+    margin-right: 8px;
+    color: #d1d1d1;
+}
+.text i#hak{
+    font-size: 1.2em;
+    
+}
+.text i#mail{
+    font-size: 1.4em;
+}
+.text i#tel1{
+    font-size: 1.3em;
+}
+.text i#tel2{
+    font-size: 1.4em;
+}
+.text ul li a{
+    text-decoration: none;
+    color: #d1d1d1;
+}
+.text ul li a:hover{
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.saatler h2{
+    font-size: 1.5em;
+    color: white;
+    font-weight: 500;
+    border-bottom: 1px solid #43475e;
+    width: 70px;
+    margin-bottom: 10px;
+}
+.saatler h2+p{
+    color: #d1d1d1;
+    line-height: 30px;
+}
+.sosyal .lisans{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px auto 0px auto;
+    text-align: center;
+    position: relative;
+}
+.lisans p{
+    float: left;
+    font-size: 1.3em;
+    color: #858585;
+    position: absolute;
+    
+}
+.icons{
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}  
+.temizle{
+    clear: both;
+}
+.icons i{
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+}
+.icons .facebook{
+    background: #39599f;
+}
+.icons .fa-x-twitter{
+    background-color: black;
+}
+.icons .linkedin{
+	background: #31516a;
+}

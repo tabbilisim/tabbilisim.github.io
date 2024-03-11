@@ -1,0 +1,420 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+.wrapper{
+    width: 100%;
+}
+.basadon{
+    position: absolute;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 999;
+}
+.basadon i{
+    font-size: 2.5em;
+    color: white;
+    padding: 10px;
+    background-color: rgba(134, 13, 13,0.3);
+    border-radius: 50%;
+
+}
+.basadon i:hover{
+    background-color: #bd1717;
+    transition: all 0.5s ease-in-out;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url(foto/dark_tint.png),url(foto/i1M5MaHWxqocSKo81ktxMymldPzJliduyNkaWqlX_480.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+header{
+    width: 100%;
+    align-self: flex-start;
+    position: absolute;
+}
+header h1{
+    cursor: pointer;
+}
+span.tab{
+    font-weight: 100;
+    font-size: 1.5em;
+}
+span.bilisim{
+    color: #bd1717;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 1px rgb(36, 31, 31);
+}
+h1 img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 60px;
+    top: 5px;
+}
+.tab{
+    position: absolute;
+    left: 5px;
+}
+.bilisim{
+    position: absolute;
+    left: 110px;
+}
+header h1{
+    position: absolute;
+    top: 10px;
+    font-family: "Ojuju", sans-serif;
+    margin-left: 15px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+nav ul{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    float: right;
+}
+nav ul li{
+    padding: 30px;
+    float: left;
+    display: block;
+}
+nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: #d8d8d8;
+    font-size: 1.1em;
+    font-weight: 100;
+}
+nav ul li a:hover{
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+.yazi h2{
+    font-size: 2em;
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.yazi h2+p{
+    font-size: 1.3em;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.buton a{
+    text-decoration: none;
+    padding: 15px 50px;
+    color: white;
+    background-color: #f32853;
+    border-radius: 30px;
+}
+.buton a:hover{
+    background-color:rgba(240, 5, 56);
+    transition: all 0.5s ease-in-out;
+}
+section.bolum1{
+    padding: 70px 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.bolum1 h2{
+    font-size: 3em;
+    color: rgb(77, 73, 73);
+    font-weight: 700;
+    
+    border-bottom: 1px solid rgb(85, 59, 59);
+    width: 350px;
+    margin:  0 auto 1em auto;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+a .kutu{
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    background-color: #fff;
+    align-self: flex-start;
+    margin-right: 20px;
+    padding: 20px 0;
+}
+a .kutu:nth-last-child(){
+    margin-right: 0;
+}
+a .kutu i{
+    font-size: 4em;
+    padding: 30px;
+    color: white;
+    border-radius: 50%;
+}
+.bolum1 .container a:nth-child(1) .kutu i{
+    background-color: green;
+}
+.bolum1 .container a:nth-child(2) .kutu i{
+    background-color: blue;
+}
+.bolum1 .container a:nth-child(3) .kutu i{
+    background-color: rgb(134, 13, 13);
+}
+.bolum1 .container a .kutu h3{
+    font-size: 1.3em;
+    color: rgb(82, 78, 78);
+    font-weight: 700;
+    margin: 20px 0;
+}
+.bolum1 .container a .kutu h3+p{
+    font-size: 1.3em;
+    color: gray;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 0 20px 30px 20px;
+}
+.bolum1 .container a{
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    background-color: #fff;
+    align-self: flex-start;
+    margin-right: 20px;
+    padding: 20px 0;
+    text-decoration: none;
+}
+.container2 .baslik{
+    padding: 0px 0px 90px 0;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    background: url(foto/logopng.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.baslik h2{
+    font-size: 2em;
+    color: rgb(90, 80, 80);
+    font-weight: 500;
+    margin: 0 0 100px 0;
+    padding: 30px 0 10px 0 ;
+}
+section.bolum3{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding: 70px 0;
+    display: block;
+    background: url(foto/abstract_background_template_flat_geometric_layout_6931754.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bolum3 .hakimiz{
+    font-size: 3em;
+    color: rgb(77, 73, 73);
+    font-weight: 700;
+    
+    border-bottom: 1px solid rgb(85, 59, 59);
+    width: 350px;
+    margin:  0 auto 1em auto;
+}
+.container3{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    flex-wrap: wrap;
+}
+.container3 .kutu{
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background-color: transparent;
+    align-self: stretch;
+    margin-right: 20px;
+    padding: 20px 0;
+    margin-right: 20px;
+}
+.ikinci{
+    margin-right: 0;
+}
+.kutu h2{
+    font-size: 2em;
+    font-weight: 600;
+    color: rgb(66, 59, 59);
+    margin-bottom: 10px;
+}
+.kutu h2+p{
+    font-size: 1.3em;
+    font-weight: 200;
+    line-height: 40px;
+    color: gray;
+}
+.kutu img{
+    
+    width: 400px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+footer{
+    width: 100%;
+    padding: 40px 0;
+    background-color: #383b43;
+    position: relative;
+}
+.container4{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d8d8d8;
+}
+.container4 .k{
+    flex-basis: 220px;
+    flex-grow: 1;
+    margin-right: 40px;
+    align-self: stretch;
+}
+.container4 .saatler{
+    margin-right: 0;
+}
+.adres h2{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+    border-bottom: 1px solid #43475e;
+    width: 70px;
+    margin-bottom: 10px;
+}
+.adres address{
+    line-height: 34px;
+    color: white;
+    font-weight: 300;
+}
+.kurumsal{
+    position: relative;
+    text-align: left;
+}
+.kurumsal h2{
+    font-size: 1.5em;
+    color: white;
+    font-weight: 500;
+    border-bottom: 1px solid #43475e;
+    width: 70px;
+    margin-bottom: 10px;
+}
+.text{
+    margin-bottom: 10px;
+    color: #d1d1d1;
+}
+.text i{
+    position: relative;
+    float: left;
+    margin-right: 8px;
+    color: #d1d1d1;
+}
+.text i#hak{
+    font-size: 1.2em;
+    
+}
+.text i#mail{
+    font-size: 1.4em;
+}
+.text i#tel1{
+    font-size: 1.3em;
+}
+.text i#tel2{
+    font-size: 1.4em;
+}
+.text ul li a{
+    text-decoration: none;
+    color: #d1d1d1;
+}
+.text ul li a:hover{
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.saatler h2{
+    font-size: 1.5em;
+    color: white;
+    font-weight: 500;
+    border-bottom: 1px solid #43475e;
+    width: 70px;
+    margin-bottom: 10px;
+}
+.saatler h2+p{
+    color: #d1d1d1;
+    line-height: 30px;
+}
+.sosyal .lisans{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px auto 0px auto;
+    text-align: center;
+    position: relative;
+}
+.lisans p{
+    float: left;
+    font-size: 1.3em;
+    color: #858585;
+    position: absolute;
+    
+}
+.icons{
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}  
+.temizle{
+    clear: both;
+}
+.icons i{
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+}
+.icons .facebook{
+    background: #39599f;
+}
+.icons .fa-x-twitter{
+    background-color: black;
+}
+.icons .linkedin{
+	background: #31516a;
+}
