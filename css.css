@@ -149,12 +149,11 @@ section.bolum1{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    text-align: center;
+
     flex-wrap: wrap;
 }
 a .kutu{
-    flex-basis: 300px;
+    flex-basis: 100px;
     flex-grow: 1;
     flex-shrink: 0;
     background-color: #fff;
@@ -162,7 +161,7 @@ a .kutu{
     margin-right: 20px;
     padding: 20px 0;
 }
-a .kutu:nth-last-child(){
+a .sonuncu{
     margin-right: 0;
 }
 a .kutu i{
