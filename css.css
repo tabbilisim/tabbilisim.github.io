@@ -139,7 +139,6 @@ section.bolum1{
     font-size: 3em;
     color: rgb(77, 73, 73);
     font-weight: 700;
-    
     border-bottom: 1px solid rgb(85, 59, 59);
     width: 350px;
     margin:  0 auto 1em auto;
@@ -149,7 +148,6 @@ section.bolum1{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-
     flex-wrap: wrap;
 }
 a .kutu{
@@ -157,7 +155,7 @@ a .kutu{
     flex-grow: 1;
     flex-shrink: 0;
     background-color: #fff;
-    align-self: flex-start;
+    align-self: stretch;
     margin-right: 20px;
     padding: 20px 0;
 }
@@ -199,8 +197,12 @@ a .kutu i{
     background-color: #fff;
     align-self: flex-start;
     margin-right: 20px;
+    
     padding: 20px 0;
     text-decoration: none;
+}
+a .sonuncu{
+    margin-right: 0;
 }
 .container2 .baslik{
     padding: 0px 0px 90px 0;
@@ -244,7 +246,7 @@ section.bolum3{
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content :space-between;
     align-items: center;
     text-align: left;
     flex-wrap: wrap;
@@ -378,6 +380,7 @@ footer{
 }
 .sosyal .lisans{
     width: 70%;
+    padding: 0 20px;
     display: flex;
     justify-content: flex-start;
     margin: 20px auto 0px auto;
@@ -416,4 +419,87 @@ footer{
 }
 .icons .linkedin{
 	background: #31516a;
+}
+@media screen and (max-width:980px){
+    .banner{
+        height: 70vh;
+    }
+    .yazi h2{    
+        font-size: 1.5em;
+    }
+    .yazi h2+p{
+        font-size: 1em;
+    }
+    .buton a{
+        padding: 10px 30px;
+        font-size: 1.1em;
+    }
+    a .kutu{
+        margin-right: 0px;
+        margin-bottom: 20px;
+        align-self: stretch;
+    }
+    .bolum1 .container a{
+        margin-right: 0px;
+        align-self: stretch;
+        margin-bottom: 20px;
+    }
+    .container3 .kutu{
+        margin-right: 0px;
+        
+    }
+    .container3{
+        text-align: center;
+    }
+}
+@media screen and (max-width:610px) {
+    .banner{
+        height: 50vh;
+    }
+    .yazi h2{    
+        font-size: 1.2em;
+    }
+    .yazi h2+p{
+        font-size: 0.8em;
+    }
+    .buton a{
+        padding: 8px 22px;
+        font-size: 1em;
+    }
+    .container3 .kutu{
+        padding: 20px 10px;
+    }
+    .ikinci{
+        display: none;
+    }
+    .bolum3 .hakimiz{
+        font-size: 2.4em;
+        border-bottom: 1px solid rgb(85, 59, 59);
+        width: 230px;
+    }
+    .kutu h2{
+        font-size: 1.6em;
+    }
+    .kutu h2+p{
+        font-size: 1.1em;
+    }
+    .bolum1 h2{
+        font-size: 2.4em;
+        border-bottom: 1px solid rgb(85, 59, 59);
+        width: 280px;
+    }
+    footer{
+        padding: 20px 0;
+        width: 100%;
+    }
+    .lisans p{
+        font-size: 0.8em;
+    }
+    .icons i{
+        padding: 4px;
+        
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    }
+    
 }

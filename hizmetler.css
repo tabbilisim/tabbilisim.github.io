@@ -116,7 +116,7 @@ nav ul li a:hover{
 }
 .icerik{
     width: 70%;
-    margin: 40px auto 40px 100px;
+    margin: 40px 200px 40px 100px;
     position: relative;
 }
 .verikurtarma img{
@@ -308,4 +308,35 @@ footer{
 }
 .icons .linkedin{
 	background: #31516a;
+}
+@media screen and (max-width:610px) {
+    
+    .yazi h2{    
+        font-size: 2em;
+        width: 220px;
+    }
+    
+    footer{
+        padding: 20px 0;
+        width: 100%;
+    }
+    .lisans p{
+        font-size: 0.8em;
+    }
+    .icons i{
+        padding: 4px;
+        
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    }
+    .icerik{
+        width: 70%;
+        display: block;
+        margin: 20px 20px;
+    }
+    .icerik img{
+        width: 330px;
+        height: 150px;
+    }
+    
 }

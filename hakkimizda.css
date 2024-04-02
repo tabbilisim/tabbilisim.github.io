@@ -130,14 +130,14 @@ section.icerik{
     padding: 30px;
 }
 .container .kutu:nth-child(1){
-    flex-basis: 600px;
+    flex-basis: 300px;
     flex-grow: 1;
     flex-shrink: 0;
     margin-right: 20px;
     border-right: 1px solid #ecebe3;
 }
 .container .kutu:nth-child(2){
-    flex-basis: 500px;
+    flex-basis: 300px;
     flex-grow: 1;
     flex-shrink: 0;
     display: flex;
@@ -309,3 +309,34 @@ footer{
 	background: #31516a;
 }
 
+@media screen and (max-width:610px) {
+    
+    .yazi h2{    
+        font-size: 2em;
+        width: 220px;
+    }
+    
+    footer{
+        padding: 20px 0;
+        width: 100%;
+    }
+    .lisans p{
+        font-size: 0.8em;
+    }
+    .icons i{
+        padding: 4px;
+        
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    }
+    .container .kutu:nth-child(1){
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid #ecebe3;
+    }
+    .kutu{
+        max-width: 400px;
+        
+        flex-wrap: wrap;
+    }
+}

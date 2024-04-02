@@ -130,7 +130,7 @@ section.icerik{
 }
 .iletisim .a{
     margin-bottom: 30px;
-    width: 400px;
+    max-width: 400px;
     margin-right: 150px;
 }
 
@@ -176,9 +176,11 @@ section.icerik{
     position: relative;
     width: 100%;
     display: flex;
+    
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
+    
 }
 .kutu{
     float: left;
@@ -203,6 +205,7 @@ input[type="text"]:focus,textarea:focus,input[type="tel"]:focus,.ikonekle input[
 
 .ikonekle{
     position: relative;
+    
     margin-bottom: 20px;
 }
 .ikonekle i{
@@ -365,4 +368,52 @@ footer{
 .icons .linkedin{
 	background: #31516a;
 }
+@media screen and (max-width:610px) {
+    
+    .yazi h2{    
+        font-size: 2em;
+        width: 220px;
+    }
+    
+    footer{
+        padding: 20px 0;
+        width: 100%;
+    }
+    .lisans p{
+        font-size: 0.8em;
+    }
+    .icons i{
+        padding: 4px;
+        
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    }
+    .map iframe{
+        width: 450px;
+        height: 200px;
+    }
+    .kutu{
+        float: none;
+        width: 300px;
+        margin-right: 100px;
+    }
+    input[type="text"],textarea,input[type="tel"],input[type="email"]{
+        width: 100%;
+    }
+    .ikonekle{
+        width: 300px;
+        margin: 0 auto;
+        
+    }
+    .kutu input[type="submit"]{
+        width: 350px;
+        
 
+    }
+}
+@media screen and (max-width:980px) {
+    .kutu{
+        float: none;
+        margin-right: 0;
+    }
+}
